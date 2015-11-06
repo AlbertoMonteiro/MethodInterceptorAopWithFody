@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodInterceptorAop", "MethodInterceptorAop\MethodInterceptorAop.csproj", "{B2F7CCC9-220B-4B4D-9279-5145A0C706A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAssembly", "TestAssembly\TestAssembly.csproj", "{1216C093-D913-4FBB-9A79-0D92AEE2D544}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodInterceptorAop.Tests", "MethodInterceptorAop.Tests\MethodInterceptorAop.Tests.csproj", "{348CBE39-3B29-45D5-AC8B-C6166759AABC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{B2F7CCC9-220B-4B4D-9279-5145A0C706A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2F7CCC9-220B-4B4D-9279-5145A0C706A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2F7CCC9-220B-4B4D-9279-5145A0C706A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1216C093-D913-4FBB-9A79-0D92AEE2D544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1216C093-D913-4FBB-9A79-0D92AEE2D544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1216C093-D913-4FBB-9A79-0D92AEE2D544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1216C093-D913-4FBB-9A79-0D92AEE2D544}.Release|Any CPU.Build.0 = Release|Any CPU
+		{348CBE39-3B29-45D5-AC8B-C6166759AABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{348CBE39-3B29-45D5-AC8B-C6166759AABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{348CBE39-3B29-45D5-AC8B-C6166759AABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{348CBE39-3B29-45D5-AC8B-C6166759AABC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
